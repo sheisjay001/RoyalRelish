@@ -418,4 +418,27 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // --- WhatsApp Contact Button Handling ---
+    const whatsappContactBtn = document.getElementById('whatsapp-contact-btn');
+    if (whatsappContactBtn && contactForm) {
+        whatsappContactBtn.addEventListener('click', () => {
+            const formData = new FormData(contactForm);
+            const data = Object.fromEntries(formData.entries());
+
+            // Basic client-side validation
+            if (!data.name || !data.email || !data.message) {
+                showToast('Please fill in all fields to send via WhatsApp.', 'error');
+                return;
+            }
+
+            const message = `Hello Royal Relish, I have an inquiry:%0A%0A*Name:* ${data.name}%0A*Email:* ${data.email}%0A*Message:*%0A${data.message}`;
+            
+            // Replace with your actual WhatsApp number
+            const phoneNumber = "2349074555365"; 
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+            
+            window.open(whatsappUrl, '_blank');
+        });
+    }
+
 });

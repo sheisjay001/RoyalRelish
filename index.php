@@ -300,6 +300,9 @@
                         <textarea id="message" name="message" required placeholder="How can we help you?" rows="5"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="button" id="whatsapp-contact-btn" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                    </button>
                 </form>
             </div>
         </div>

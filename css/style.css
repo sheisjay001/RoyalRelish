@@ -931,3 +931,23 @@ footer {
         right: -100%;
     }
 }
+
+/* WhatsApp Button */
+.btn-whatsapp {
+    background-color: #25D366;
+    color: var(--white);
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+    color: var(--white);
+}
