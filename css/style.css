@@ -936,7 +936,6 @@ footer {
 .btn-whatsapp {
     background-color: #25D366;
     color: var(--white);
-    margin-top: 15px;
     width: 100%;
     display: flex;
     align-items: center;
