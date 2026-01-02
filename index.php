@@ -331,14 +331,7 @@
                         <li>Sun: 14:00 – 19:00</li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <h3>Follow Us</h3>
-                    <div class="social-links">
-                        <a href="#">Instagram</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">Facebook</a>
-                    </div>
-                </div>
+
             </div>
             <p class="copyright">&copy; 2026 Royal Relish. All rights reserved.</p>
         </div>
