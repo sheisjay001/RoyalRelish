@@ -319,7 +319,6 @@
                     <h3>Contact Us</h3>
                     <p>📍 Gidan Kwano, Minna, Niger State, Nigeria</p>
                     <p>📞 <a href="tel:+2349074555365" style="color: white;">+234 907 455 5365</a></p>
-                    <p>✉️ <a href="mailto:info@royalrelish.com" style="color: white;">info@royalrelish.com</a></p>
                 </div>
                 <div class="footer-col">
                     <h3>Opening Hours</h3>
